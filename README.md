@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# thr3d33.github.io
-
-
-=======
 <!-- markdownlint-disable-next-line -->
 <div align="center">
 
@@ -18,5 +13,3 @@
 
 Blog - https://thr3d33.github.io/
 
-
->>>>>>> 5a71268 (Updated links and paths in .gitmodules and .gitignore, cleaned up share.yml and added README.md for blog)
