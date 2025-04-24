@@ -7,4 +7,5 @@ order: 1
 permalink: /about/
 ---
 
-🇿🇦
+🇿🇦, Earth, the Solar System, Oort Cloud, Local Fluff, Local Bubble, Orion Arm, Milky Way Galaxy, Local Group, Virgo Supercluster, Laniakea Supercluster, Universe.
+
