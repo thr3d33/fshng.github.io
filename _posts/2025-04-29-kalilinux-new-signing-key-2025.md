@@ -3,8 +3,8 @@ title: "New Kali Linux Archive Signing Key"
 description: "Time to get a new key cut"
 layout: post
 date: 2025-04-29 21:00
-categories: [kali, linux, keyring, security]
-tags:
+categories: 
+tags: [kali, linux, keyring, security]
 comments: false
 image:
   path: assets/img/headers/kali-linux-keyring-updated-2025.webp
