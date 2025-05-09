@@ -4,7 +4,7 @@ description: "Remote Desktop Software"
 layout: post
 date: 2025-05-08 12:00:00
 categories: 
-tags: 
+tags: [linux, remote-desktop, nomachine, arch-linux]
 comments: false
 image:
   path: assets/img/headers/howto-nomachine.webp
