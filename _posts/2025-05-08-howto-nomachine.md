@@ -42,9 +42,6 @@ sudo tar xvzf <pkgName>_<pkgVersion>_<arch>.tar.gz
 
 ### Install
 
-> [!WARNING]  
-> Use sudo with care and read all scripts you intend to run.
-
 **Run the `nxserver` script:**
 
 Use `--install` for installation.
