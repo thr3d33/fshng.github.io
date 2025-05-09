@@ -47,7 +47,7 @@ sudo tar xvzf <pkgName>_<pkgVersion>_<arch>.tar.gz
 Use `--install` for installation.
 ```bash
 sudo /usr/NX/nxserver --install 
-sudo /usr/NX/nxserver --install redhat # Adding redhat for Arch linux installation, since there is no official install script for Arch
+sudo /usr/NX/nxserver --install redhat # Adding redhat for Arch linux. Arch Linux is not officially supported.
 ```
 
 ### Update
