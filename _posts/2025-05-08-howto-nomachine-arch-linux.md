@@ -9,8 +9,6 @@ comments: false
 image:
   path: assets/img/headers/howto-nomachine.webp
 ---
-## How To: Install NoMachine on Arch Linux
-
 ### Recommended System Requirements
 
 **Hardware**
@@ -26,8 +24,8 @@ image:
 {: .prompt-warning }
 ### Download
 
-If you want to install NoMachine on a Arch Linux distribution, download the compressed NoMachine tar package from the web site:
-You can head over to their download page to see what other products/services they offer
+If you want to install NoMachine on a Arch Linux distribution, download the compressed NoMachine tar package from the web site.
+You can head over to their downloads page to see what other products/services they offer
 [NoMachine Downloads](https://www.nomachine.com/download) or head straight to the Linux download page [Linux Binaries](https://download.nomachine.com/download/?id=1&platform=linux)
 
 ### Verify
