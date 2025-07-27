@@ -7,4 +7,4 @@ order: 1
 permalink: /about/
 ---
 
-🇿🇦 --> 🌍 --> Solar System --> Oort Cloud --> Local Fluff --> Local Bubble --> Orion Arm --> Milky Way Galaxy --> Local Group --> Virgo Supercluster --> Laniakea Supercluster --> Universe.
+This blog is a collection of things I am learning about and working on.
