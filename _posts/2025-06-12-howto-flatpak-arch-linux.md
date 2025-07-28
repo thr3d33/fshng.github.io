@@ -6,9 +6,9 @@ layout: post
 categories: 
 tags:
   - linux
-  - arch-linux
   - flatpak
   - how-to
+  - archlinux
 comments: false
 ---
 > "[Flatpak](https://flatpak.org/) is a system for building, distributing and running sandboxed desktop applications on Linux."
