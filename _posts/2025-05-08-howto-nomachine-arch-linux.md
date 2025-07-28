@@ -1,14 +1,19 @@
 ---
 title: "How To: NoMachine on Arch Linux"
-description: "Remote Desktop Software"
+description: Remote desktop software over the network
 layout: post
 date: 2025-05-08 12:00:00
 categories: 
-tags: [linux, remote-desktop, nomachine, arch-linux]
+tags:
+  - linux
+  - remote-desktop
+  - nomachine
+  - archlinux
 comments: false
 image:
   path: assets/img/headers/howto-nomachine.webp
 ---
+[NoMachine](https://www.nomachine.com/) allows you to access a graphical desktop of a computer over the network. Unlike some other remote desktop solutions, NoMachine does not require an intermediary server to establish the connection.
 ### Recommended System Requirements
 
 **Hardware**
@@ -60,6 +65,11 @@ If you want to install to the default location `/usr/NX` ensure that package i
 cd /usr/local/bin/
 sudo tar xvzf <pkgName>_<pkgVersion>_<arch>.tar.gz  
 ```
+
+```bash
+cd /usr/local/bin/
+sudo tar xvzf nomachine_<pkgVersion>_<arch>.tar.gz  
+```
 ### Install
  
 > Read all scripts that you wish to run, especially those that require privileged access.
@@ -67,10 +77,12 @@ sudo tar xvzf <pkgName>_<pkgVersion>_<arch>.tar.gz
 
 **Run the `nxserver` script:**
 
+>Adding the `redhat` flag after `--install` option is required when installing on Arch and Arch-based distros as its not officially supported.
+{: .prompt-info }
+
 Use `--install` option for installation.
 ```bash
-cd NX
-# Adding the redhat flag after --install is required when installing on Arch and Arch-based distros as its not officially supported. 
+cd NX 
 sudo NX/nxserver --install redhat 
 ```
 
@@ -80,14 +92,21 @@ Using non-default location like `/opt`.
 sudo NX_INSTALL_PREFIX=/opt /usr/local/bin/NX/nxserver --install redhat
 ```
 
-#### Install via AUR
-#### [AUR](https://aur.archlinux.org/):
+Cleanup your directory:
+```bash
+cd /usr/local/bin/
+sudo rm -rf nomachine_<pkgVersion>_<arch>.tar.gz README.md
+```
+
+---
+#### Install via [AUR](https://aur.archlinux.org/):
 
 There is a `nomachine` package on the Arch User Repository maintained by [runnytu](https://aur.archlinux.org/packages/nomachine) if you want to give that a try.
 
+---
 #### Post-Install:
 
-Some useful environment variables:
+Some useful environment variables for your rc file:
 ```shell
 # Environment Variables
 # Exporting the Installation directory for NX  
@@ -96,18 +115,33 @@ export NX_INSTALL_PREFIX=/opt
 export NX_HOME=/opt/NX
 export PATH=$PATH:$NX_HOME/bin
 ```
+
+```bash
+nxserver --version
+```
+
+Output: `NoMachine - Version <VERSION_NR>`
+
+---
 ### Update
 
 Use `--update` option to update your installation.
 ```bash
 # This script executes another located in /etx/NX/
 sudo /opt/NX/bin/nxserver --update
+# Assuming you added $NX_HOME to your path
+sudo $NX_HOME/bin/nxserver --update
+sudo nxserver --update
 ```
+
+---
 ### Uninstall
 
 Use `--uninstall` option to uninstall your installation.
 ```bash
 sudo /opt/NX/scripts/setup/nxserver --uninstall
+# Assuming you added $NX_HOME to your path
+sudo $NX_HOME/scripts/setup/nxserver --uninstall
 ```
 
 Then remove the NX directory.
