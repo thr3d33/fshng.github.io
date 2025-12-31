@@ -3,24 +3,22 @@
 # Import the theme
 theme: jekyll-theme-chirpy
 lang: en
-timezone: Africa/Johannesburg
+timezone: Africa/Harare
 
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Thr3D33
-tagline: Dont Panic!
-description: >- 
-  Do you know where your towel is?
-url: "https://thr3d33.github.io"
+title: "For S#!ts N Giggles"
+tagline: ""
+description: ""
+url: "https://fshng.xyz"
 
 github:
-  username: thr3d33 # change to your GitHub username
+username: thr3d33 # change to your GitHub username
 username: thr3d33 # change to your Twitter username
 social:
   name: thr3d33
   links:
-    - https://github.com/thr3d33 
     - https://www.linkedin.com/in/thr3d33
 
 # Site Verification Settings
@@ -66,7 +64,7 @@ theme_mode:
 cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: /assets/img/avatar/thr3d33-avatar.png
+avatar: /assets/img/avatar/hashbang.png
 
 # The URL of the site-wide social preview image used in SEO `og:image` meta tag.
 # It can be overridden by a customized `page.image` in front matter.
