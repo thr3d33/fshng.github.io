@@ -14,12 +14,12 @@ description: ""
 url: "https://fshng.xyz"
 
 github:
-username: thr3d33 # change to your GitHub username
-username: thr3d33 # change to your Twitter username
+  username: thr3d33/fshng.github.io # change to your GitHub username
 social:
   name: thr3d33
   links:
     - https://www.linkedin.com/in/thr3d33
+    - https://github.com/thr3d33/fshng.github.io
 
 # Site Verification Settings
 webmaster_verifications:

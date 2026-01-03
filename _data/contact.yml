@@ -5,10 +5,6 @@
   icon: 'fab fa-mastodon' 
   url:  'https://mastodon.social/@thr3d33'
 
-- type: linkedin
-  icon: 'fab fa-linkedin' 
-  url:  'https://www.linkedin.com/in/thr3d33'
-
 - type: rss
   icon: "fas fa-rss"
   noblank: true
