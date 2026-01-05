@@ -3,13 +3,11 @@ title: "How To: Flatpak on Arch Linux"
 description: Flatpak is a system for building, distributing and running sandboxed desktop applications on Linux.
 date: 2025-06-12 11:33:00
 layout: post
-categories: 
-tags:
-  - linux
-  - flatpak
-  - how-to
-  - archlinux
+categories: [packages]
+tags: [linux, flatpak, how-to, archlinux]
 comments: false
+image: 
+  path: assets/img/headers/howto-flatpak-arch.webp
 ---
 > "[Flatpak](https://flatpak.org/) is a system for building, distributing and running sandboxed desktop applications on Linux."
 
@@ -87,13 +85,10 @@ flatpak uninstall com.vscodium.codium
 > Be sure to have a look at the [Manifest](https://github.com/flathub/com.vscodium.codium) for VSCodium.
 {: .prompt-info }
 
-<!---
-Reference:
-Arch Wiki:
-https://wiki.archlinux.org/title/Flatpak
-Flatpak:
-https://flatpak.org/setup/Arch
-Flathub:
-https://flathub.org/
-https://flathub.org/setup/Arch
---->
+---
+**Reference:**
+
+- https://wiki.archlinux.org/title/Flatpak
+- https://flatpak.org/setup/Arch
+- https://flathub.org/
+- https://flathub.org/setup/Arch
