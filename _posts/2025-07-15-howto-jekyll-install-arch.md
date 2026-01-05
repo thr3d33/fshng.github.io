@@ -1,6 +1,6 @@
 ---
 title: "How To: Install Jekyll (Static site generator)"
-description: <Description>
+description: "Jekyll is a Static Site Generator"
 layout: post
 date: 2025-07-15 11:33:00
 categories: 
