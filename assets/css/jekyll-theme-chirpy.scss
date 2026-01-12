@@ -1,0 +1,28 @@
+---
+---
+
+/* prettier-ignore */
+@use 'main
+{%- if jekyll.environment == 'production' -%}
+  .bundle
+{%- endif -%}
+';
+
+/* append your custom style below */
+/* Applied when the system is in light mode or the theme is explicitly set to light */
+html[data-mode='light'],
+html:not([data-mode]) {
+  @import 'github-light.scss';
+}
+
+/* Applied when the theme is explicitly set to dark */
+html[data-mode='dark'] {
+  @import 'github-dark.scss';
+}
+
+/* Fallback when the system is in dark mode and no theme is explicitly set */
+@media (prefers-color-scheme: dark) {
+  html:not([data-mode]) {
+    @import 'github-dark.scss';
+  }
+}
