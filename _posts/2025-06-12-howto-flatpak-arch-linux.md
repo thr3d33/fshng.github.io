@@ -92,7 +92,7 @@ Any issues you may run into might already be addressed so have a look at the [Tr
 ---
 **Reference:**
 
-- https://wiki.archlinux.org/title/Flatpak - The Arch Wiki entry for Flatpak
-- https://flatpak.org/setup/Arch - Flatpak page for install on Arch Linux
-- https://flathub.org/ - Homepage for Flathub the application repository.
-- https://wiki.archlinux.org/title/Flatpak#Troubleshooting - Troubleshooting Flatpak on Arch Linux
+- <https://wiki.archlinux.org/title/Flatpak> - The Arch Wiki entry for Flatpak
+- <https://flatpak.org/setup/Arch> - Flatpak page for install on Arch Linux
+- <https://flathub.org/> - Homepage for Flathub the application repository.
+- <https://wiki.archlinux.org/title/Flatpak#Troubleshooting> - Troubleshooting Flatpak on Arch Linux
