@@ -13,9 +13,13 @@ image:
 
 ### Install
 
+>- Many Flatpak applications available on flathub are not effectively sandboxed by default . Do not rely on the provided process isolation without first reviewing the related flatpak permission manifest for common sandbox escape issues.
+>- Running untrusted code is never safe; sandboxing cannot change this.
+{: .prompt-warning }
+
 Flatpak is available on the Arch as part of the `Extra` repository.
 
-To install [Flatpak](https://flatpak.org/) on Arch Linux, we will open a terminal and run:
+To install [Flatpak](https://archlinux.org/packages/extra/x86_64/flatpak/) on Arch Linux, we will open a terminal and run:
 
 ```bash
 sudo pacman -S flatpak
@@ -23,39 +27,36 @@ sudo pacman -S flatpak
 #### Reboot
 
 Reboot your system.
-
----
-### Post-Install
+#### Verify
 
 You can check that everything is working, by running:
+Verify version:
 ```bash
 flatpak --version
 ```
 
-The installation of flatpak will, by default, add the official [Flathub repository](https://flathub.org/) as a system-wide installation.
+> The installation of flatpak will, by default, add the official [Flathub repository](https://flathub.org/) as a system-wide installation.
+ {: .prompt-info }
 
-Run the below command to list installed repositories: 
+Run the below command to list installed repositories:
+Verify remotes:
 ```bash
 flatpak remotes
 ```
-
 ---
-### Install a Application
+### Install a Application with Flatpak
 
->- Many Flatpak applications available on flathub are not effectively sandboxed by default . Do not rely on the provided process isolation without first reviewing the related flatpak permission manifest for common sandbox escape issues.
->- Running untrusted code is never safe; sandboxing cannot change this.
-{: .prompt-warning }
+Head over to [Flathub](https://flathub.org/) and checkout the available applications you might want to install.
 
-Head over to [Flathub](https://flathub.org/) and checkout the available applications for install. 
+>In this example we are going to install an open source IDE called [vscodium](https://flathub.org/apps/com.vscodium.codium).
+{: .prompt-info }
 
-In the below example, we are going to install [vscodium](https://flathub.org/apps/com.vscodium.codium).
-
-Update appstream for existing repositories:
+Before we are able to search a newly added repository, we are going to add the `update` flag to the `flatpak` command to download the appstream data for repositories:
 ```bash
 flatpak update
 ```
 
-You can search for `vscodium` using the search option:
+You can `search` for [vscodium](https://vscodium.com/) using the search option:
 ```bash
 flatpak search vscodium
 ```
@@ -85,10 +86,13 @@ flatpak uninstall com.vscodium.codium
 > Be sure to have a look at the [Manifest](https://github.com/flathub/com.vscodium.codium) for VSCodium.
 {: .prompt-info }
 
+
+Any issues you may run into might already be addressed so have a look at the [Troubleshooting](https://wiki.archlinux.org/title/Flatpak#Troubleshooting)  section on the Arch Wiki entry for Flatpak. Any and all information you might need for configuration and commands can be found on the Arch Wiki.
+
 ---
 **Reference:**
 
-- https://wiki.archlinux.org/title/Flatpak
-- https://flatpak.org/setup/Arch
-- https://flathub.org/
-- https://flathub.org/setup/Arch
+- https://wiki.archlinux.org/title/Flatpak - The Arch Wiki entry for Flatpak
+- https://flatpak.org/setup/Arch - Flatpak page for install on Arch Linux
+- https://flathub.org/ - Homepage for Flathub the application repository.
+- https://wiki.archlinux.org/title/Flatpak#Troubleshooting - Troubleshooting Flatpak on Arch Linux
