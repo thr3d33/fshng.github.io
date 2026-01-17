@@ -8,9 +8,9 @@ timezone: Africa/Harare
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: "For S#!ts N Giggles"
+title: "For S#!ts 'n' Giggles"
 tagline: ""
-description: ""
+description: "Technical Blog"
 url: "https://fshng.xyz"
 
 github:
@@ -39,8 +39,8 @@ analytics:
   goatcounter:
     id: # fill in your GoatCounter ID
   umami:
-    id: # fill in your Umami ID
-    domain: # fill in your Umami domain
+    id: a01b06ef-a17c-455f-b552-7596ba670e51 # fill in your Umami ID
+    domain: https://cloud.umami.is # fill in your Umami domain
   matomo:
     id: # fill in your Matomo ID
     domain: # fill in your Matomo domain
@@ -53,7 +53,7 @@ analytics:
 pageviews:
   provider: # now only supports 'goatcounter'
 
-theme_mode:
+theme_mode: dark
 
 # The CDN endpoint for media resources.
 # Notice that once it is assigned, the CDN url
@@ -114,7 +114,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: ""
+baseurl: "https://fshng.xyz"
 
 # ------------ The following options are not recommended to be modified ------------------
 
