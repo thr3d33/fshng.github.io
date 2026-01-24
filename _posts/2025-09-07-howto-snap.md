@@ -32,6 +32,7 @@ export XDG_DATA_HOME=$HOME/.local/share
 export GOPATH=$XDG_DATA_HOME/go
 export GOMODCACHE=$XDG_CACHE_HOME/go/mod
 ```
+{: file='~/.zshenv'}
 ### Installation
 
 Using [AUR](https://aur.archlinux.org/):
@@ -71,6 +72,8 @@ cd snapd
 makepkg -si
 ```
 
+![](assets/img/posts/snapd-gitclone.png)
+
 We need to enable the `snapd.socket` using `systemctl`.
 ```bash
 sudo systemctl enable --now snapd.socket
@@ -82,6 +85,8 @@ We can check to see if he status [apparmor](https://archlinux.org/packages/extra
 ```bash
 systemctl status apparmor.service
 ```
+
+![snapd-status](assets/img/posts/snapd-status.png)
 
 Below we enable `apparmor` for the `snapd` daemon.
 ```bash
@@ -113,6 +118,8 @@ We can use the same `hello-world` package to test confinement, by running:
 ```bash
 hello-world.evil
 ```
+
+![hello-world.evil](assets/img/posts/hello-world-evil.png)
 
 ---
 

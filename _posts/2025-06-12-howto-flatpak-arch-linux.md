@@ -35,6 +35,8 @@ Verify version:
 flatpak --version
 ```
 
+![](assets/img/posts/flatpak-version.png)
+
 > The installation of flatpak will, by default, add the official [Flathub repository](https://flathub.org/) as a system-wide installation.
  {: .prompt-info }
 
