@@ -72,7 +72,7 @@ cd snapd
 makepkg -si
 ```
 
-![](assets/img/posts/snapd-gitclone.png)
+![](assets/img/posts/snapd/snapd-gitclone.png)
 
 We need to enable the `snapd.socket` using `systemctl`.
 ```bash
@@ -86,7 +86,7 @@ We can check to see if he status [apparmor](https://archlinux.org/packages/extra
 systemctl status apparmor.service
 ```
 
-![snapd-status](assets/img/posts/snapd-status.png)
+![snapd-status](assets/img/posts/snapd/snapd-status.png)
 
 Below we enable `apparmor` for the `snapd` daemon.
 ```bash
@@ -119,7 +119,7 @@ We can use the same `hello-world` package to test confinement, by running:
 hello-world.evil
 ```
 
-![hello-world.evil](assets/img/posts/hello-world-evil.png)
+![hello-world.evil](assets/img/posts/snapd/hello-world-evil.png)
 
 ---
 

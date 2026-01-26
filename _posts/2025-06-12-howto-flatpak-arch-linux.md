@@ -35,7 +35,7 @@ Verify version:
 flatpak --version
 ```
 
-![](assets/img/posts/flatpak-version.png)
+![](assets/img/posts/flatpak/flatpak-version.png)
 
 > The installation of flatpak will, by default, add the official [Flathub repository](https://flathub.org/) as a system-wide installation.
  {: .prompt-info }
@@ -52,6 +52,9 @@ Head over to [Flathub](https://flathub.org/) and checkout the available applicat
 
 >In this example we are going to install an open source IDE called [vscodium](https://flathub.org/apps/com.vscodium.codium).
 {: .prompt-info }
+
+> If you find any of the software above useful and want to show the developers some ❤️, you might consider giving them a ⭐ on Github or perhaps fuel their next update by buying them a ☕, even better would be something a little stronger 🍺 by becoming a Patron on Patreon.
+{: .prompt-tip }
 
 Before we are able to search a newly added repository, we are going to add the `update` flag to the `flatpak` command to download the appstream data for repositories:
 ```bash
