@@ -2,11 +2,8 @@
 title: "How To: AppImage"
 description: It Just Works
 layout: post
-categories:
-  - linux
-  - package
-tags:
-  - linux
+categories: [linux, package]
+tags: [linux]
 comments: false
 image:
   path: assets/img/headers/howto-appimage.webp

@@ -1,19 +1,11 @@
 ---
 title: "How To: LXC/LXD on Arch Linux"
 description: "Cans of code."
-date: 2026-11-26 11:33:00
+date: 2026-01-26 00:00:00
 layout: post
-categories:
-  - containers
-  - lxd
-  - lxc
-tags:
-  - linux
-  - how-to
-  - archlinux
+categories: [containers, lxd, lxc]
+tags: [linux, how-to, archlinux]
 comments: false
-image:
-  path: assets/img/headers/howto-appimage.webp
 ---
 ### Install
 
@@ -83,9 +75,9 @@ In the below example we launch an `archlinux/amd64` Linux container from the `im
 lxc launch images:archlinux/amd64 <container-name> # <container-name> is optional
 ```
 
-
-
 ### Using Snap
+
+
 
 ---
 **References:**
