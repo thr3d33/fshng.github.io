@@ -3,8 +3,15 @@ title: "How To: NoMachine on Arch Linux"
 description: Remote desktop software over the network
 layout: post
 date: 2025-05-08 12:00:00
-categories: [utilites, rdp] 
-tags: [linux, remote-desktop, nomachine, archlinux]
+modified: 2026-01-29T16:04:07+02:00
+categories:
+  - utilites
+  - rdp
+tags:
+  - linux
+  - remote-desktop
+  - nomachine
+  - archlinux
 comments: false
 image:
   path: assets/img/headers/howto-nomachine.webp

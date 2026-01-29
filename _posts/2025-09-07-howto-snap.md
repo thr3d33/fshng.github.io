@@ -2,9 +2,14 @@
 title: "How To: Snap on Arch"
 description:
 date: 2025-09-07 00:00:00
+modified: 2026-01-29T16:03:09+02:00
 layout: post
-categories: [packages]
-tags: [linux, snap, how-to]
+categories:
+  - packages
+tags:
+  - linux
+  - snap
+  - how-to
 comments: false
 image:
   path: assets/img/headers/howto-snap-arch.webp
