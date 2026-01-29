@@ -3,7 +3,7 @@ title: New Kali Linux Archive Signing Key
 description: Time to get some new keys cut
 layout: post
 date: 2025-04-29 21:00
-modified: 2026-01-29T16:04:18+02:00
+modified: 2026-01-29 18:19
 categories:
   - security
 tags:

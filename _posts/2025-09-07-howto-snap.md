@@ -2,7 +2,7 @@
 title: "How To: Snap on Arch"
 description:
 date: 2025-09-07 00:00:00
-modified: 2026-01-29T16:03:09+02:00
+modified: 2026-01-29 18:19
 layout: post
 categories:
   - packages

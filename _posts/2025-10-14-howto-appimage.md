@@ -2,7 +2,7 @@
 title: "How To: AppImage"
 description: It Just Works
 date: 2025-10-14 12:00
-modified: 2026-01-29T16:02:08+02:00
+modified: 2026-01-29 18:19
 layout: post
 categories:
   - linux
