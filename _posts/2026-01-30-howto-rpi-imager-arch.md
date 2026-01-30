@@ -3,7 +3,7 @@ title: "How To: Raspberry PI Imager"
 description: I want more raspberries.
 layout: post
 date: 2026-01-30 09:33
-modified: 2026-01-30 16:31
+modified: 2026-01-30 17:55
 categories:
   - embeded
   - singleboard
@@ -20,6 +20,10 @@ image:
 
 > If you find any of the software shown here useful and want to show the developers some ❤️, you might consider giving them a ⭐ on GitHub or perhaps fuel their next update or release by buying them a ☕, even better would be something a little stronger 🍺 by becoming a Patron on Patreon.
 {: .prompt-tip }
+
+> Raspberry Pi have a section on the data they collect and why on their GItHub page [here](https://github.com/raspberrypi/rpi-imager?tab=readme-ov-file#anonymous-metrics-telemetry).
+> Give it a read if you are concerned about privacy.
+{: .prompt-info }
 
 ## Installation:
 
@@ -65,9 +69,13 @@ sudo snap install rpi-imager
 That's it.
 You are ready to install an OS on your Raspberry Pi device.
 
+> When in doubt, read the docs.
+> Have a a look [here](https://www.raspberrypi.com/documentation/computers/getting-started.html#raspberry-pi-imager) to get started.
+{: .prompt-tip }
+
 ---
 
 **References:**
 - <https://www.raspberrypi.com/> - Raspberry Pi Homepage 
 - <https://github.com/raspberrypi/rpi-imager> Raspberry Pi GitHub page for Imager
-
+- <https://www.raspberrypi.com/documentation/computers/getting-started.html#raspberry-pi-imager> - Getting Started documentation for Raspberry Pi
