@@ -3,7 +3,7 @@ title: "How To: Raspberry PI Imager"
 description: I want more raspberries.
 layout: post
 date: 2026-01-30 09:33
-modified: 2026-01-30 17:55
+modified: 2026-01-30 17:57
 categories:
   - embeded
   - singleboard
