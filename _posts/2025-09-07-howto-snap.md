@@ -2,7 +2,7 @@
 title: "How To: Snap on Arch"
 description:
 date: 2025-09-07 00:00:00
-modified: 2026-01-29 18:19
+modified: 2026-01-30 12:12
 layout: post
 categories:
   - packages
@@ -37,14 +37,14 @@ export GOMODCACHE=$XDG_CACHE_HOME/go/mod
 ### Installation
 
 Using [AUR](https://aur.archlinux.org/):
-Your AUR helper of choice, below we will be using [yay](). The  [snapd](https://aur.archlinux.org/packages/snapd) package it maintained by [bboozzoo].
+Your AUR helper of choice, below we will be using [yay](). The  [snapd](https://aur.archlinux.org/packages/snapd) package is maintained by [bboozzoo].
 
 ```bash
 yay install snap
 ```
 
 
-### Build it yourself
+### Build That S<span style="color:#d79921">#!</span><span hidden>hi</span>t (BTS)
 
 The guys a [Snapcraft](https://snapcraft.io/docs/installing-snap-on-arch-linux) have instructions on installing the snap daemon on Arch Linux that you can have a look at.
 Give the Arch Wiki a read if you like for the [prerequisites](https://wiki.archlinux.org/title/Arch_User_Repository#Prerequisites) but I have also outlined the packages required below.
