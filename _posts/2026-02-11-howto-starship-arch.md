@@ -128,7 +128,7 @@ Manual install using a install script provided by [Starship](https://starship.rs
 
 I have added a copy of the script below which you can download using the above command or from their GitHub repository [here](https://github.com/starship/starship/blob/master/install/install.sh).
 
-I have added a copy of the script at the end of the post for your reading pleasure.
+I have added a copy of the script at the end of the post for your reading pleasure. You can space jump [here](https://fshng.xyz/posts/howto-starship-arch/#read-the-script) if you are curious.
 
 
 Installation script:
@@ -1047,3 +1047,5 @@ print_install
 {: file='~/.install.sh'}
 
 ---
+
+<img src="https://cloud.umami.is/p/4nRyAyDKe" width="1" height="1" border="0" alt="" style="display:block; max-height:0px; max-width:0px; overflow:hidden;">
