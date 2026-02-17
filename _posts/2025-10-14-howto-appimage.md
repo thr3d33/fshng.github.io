@@ -2,7 +2,8 @@
 title: "How To: AppImage"
 description: It Just Works
 date: 2025-10-14 12:00
-modified: 2026-01-29 18:19
+modified: 2026-02-17 17:48
+author: thr3d33
 layout: post
 categories:
   - linux
@@ -193,3 +194,7 @@ Enjoy your newly installed AppImage application complete with desktop integratio
 - <https://heroicgameslauncher.com/> -  Homepage for Heroic Game Launcher.
 - <https://github.com/Heroic-Games-Launcher/HeroicGamesLauncher> - Github home for Heroic
 - <https://superuser.com/questions/1306621/install-AppImage-under-arch-linux> -  SuperUser discussing how best to manage appimage file on Arch Linux.
+
+---
+
+<img src="https://cloud.umami.is/p/4nRyAyDKe" width="1" height="1" border="0" alt="" style="display:block; max-height:0px; max-width:0px; overflow:hidden;">

@@ -2,8 +2,9 @@
 title: "How To: LXC and LXD on Arch Linux"
 description: Lovely Cans
 date: 2026-01-26 00:00:00
-modified: 2026-02-17 17:17
+modified: 2026-02-17 17:48
 layout: post
+author: nyrrd
 categories:
   - container
   - lxd
@@ -140,4 +141,8 @@ lxc launch images:archlinux/amd64 <container-name> # <container-name> is optiona
 - <https://wiki.archlinux.org/title/LXD> - Arch Wiki entry for LXD.
 - <https://wiki.archlinux.org/title/Linux_Containers> - Arch WIki enry for Linux Containers (LXC).
 - <https://documentation.ubuntu.com/lxd/stable-5.21/> - Ubuntu Documentation on LXD
+
+---
+
+<img src="https://cloud.umami.is/p/4nRyAyDKe" width="1" height="1" border="0" alt="" style="display:block; max-height:0px; max-width:0px; overflow:hidden;">
 
