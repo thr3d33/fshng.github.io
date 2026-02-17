@@ -2,8 +2,9 @@
 title: "How To: Flatpak on Arch Linux"
 description: Flatpak is a system for building, distributing and running sandboxed desktop applications on Linux.
 date: 2025-06-12 11:33:00
-modified: 2026-01-29 18:19
+modified: 2026-02-17 17:47
 layout: post
+author: thr3d33
 categories:
   - packages
 tags:
@@ -107,3 +108,7 @@ Any issues you may run into might already be addressed so have a look at the [Tr
 - <https://flatpak.org/setup/Arch> - Flatpak page for install on Arch Linux
 - <https://flathub.org/> - Homepage for Flathub the application repository.
 - <https://wiki.archlinux.org/title/Flatpak#Troubleshooting> - Troubleshooting Flatpak on Arch Linux
+
+---
+
+<img src="https://cloud.umami.is/p/4nRyAyDKe" width="1" height="1" border="0" alt="" style="display:block; max-height:0px; max-width:0px; overflow:hidden;">

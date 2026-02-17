@@ -3,7 +3,8 @@ title: "How To: Raspberry PI Imager"
 description: I want more raspberries.
 layout: post
 date: 2026-01-30 09:33
-modified: 2026-01-30 17:57
+modified: 2026-02-17 17:49
+author: thr3d33
 categories:
   - embeded
   - singleboard
@@ -79,3 +80,7 @@ You are ready to install an OS on your Raspberry Pi device.
 - <https://www.raspberrypi.com/> - Raspberry Pi Homepage 
 - <https://github.com/raspberrypi/rpi-imager> Raspberry Pi GitHub page for Imager
 - <https://www.raspberrypi.com/documentation/computers/getting-started.html#raspberry-pi-imager> - Getting Started documentation for Raspberry Pi
+
+---
+
+<img src="https://cloud.umami.is/p/4nRyAyDKe" width="1" height="1" border="0" alt="" style="display:block; max-height:0px; max-width:0px; overflow:hidden;">

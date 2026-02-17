@@ -2,8 +2,9 @@
 title: "How To: Snap on Arch"
 description:
 date: 2025-09-07 00:00:00
-modified: 2026-01-30 12:12
+modified: 2026-02-17 17:48
 layout: post
+author: thr3d33
 categories:
   - packages
 tags:
@@ -128,4 +129,8 @@ hello-world.evil
 
 - <https://wiki.archlinux.org/title/Snap> - Arch Wiki entry for Snap
 - <https://snapcraft.io/> - Homepage for Snapcraft
+
+---
+
+<img src="https://cloud.umami.is/p/4nRyAyDKe" width="1" height="1" border="0" alt="" style="display:block; max-height:0px; max-width:0px; overflow:hidden;">
 

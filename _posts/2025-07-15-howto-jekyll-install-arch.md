@@ -3,7 +3,8 @@ title: "How To: Install Jekyll (Static site generator)"
 description: Jekyll is a Static Site Generator
 layout: post
 date: 2025-07-15 11:33:00
-modified: 2026-02-06 13:30
+modified: 2026-02-17 17:47
+author: thr3d33
 categories:
   - web
   - ssg
@@ -212,3 +213,7 @@ If you would like to know how I installed it, have a look at this developers doc
 - <https://wiki.archlinux.org/title/XDG_Base_Directory#Supported> - The Arch Wiki entry for XDG application and package support.
 - <https://wiki.archlinux.org/title/Ruby#RubyGems> - Arch Wiki entry for Ruby Gems
 - -  [ ] Buy A Beer. <https://cristalcorp.github.io/blog/2024/09/20/Jekyll_On_Arch.html> - Helpful blog post for installing Jekyll on Arch Linux. 
+
+---
+
+<img src="https://cloud.umami.is/p/4nRyAyDKe" width="1" height="1" border="0" alt="" style="display:block; max-height:0px; max-width:0px; overflow:hidden;">
