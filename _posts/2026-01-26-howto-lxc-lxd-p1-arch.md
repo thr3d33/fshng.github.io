@@ -2,7 +2,7 @@
 title: "How To: LXC and LXD on Arch Linux - Part 1"
 description: You have some lovely cans.
 date: 2026-01-26 00:00:00
-modified: 2026-02-17 17:48
+modified: 2026-03-13 19:14
 layout: post
 author: nyrrd
 categories:
@@ -19,7 +19,7 @@ tags:
   - snap
 comments: false
 image:
-  path: assets/img/headers/howto-lxc-lxd-arch.webp
+  path: assets/img/headers/howto-lxc-lxd-arch-p1.webp
 ---
 
 > If you find any of the software shown here useful and want to show the developers some ❤️, you might consider giving them a ⭐ on GitHub or perhaps fuel their next update or release by buying them a ☕, even better would be something a little stronger 🍺 by becoming a Patron on [Patreon](https://www.patreon.com/) or supporting them using [LibrePay](https://liberapay.com/), [OpenCollective](https://opencollective.com/) or simply becoming a [Sponsor](https://github.com/open-source/sponsors) on their project on GitHub. A little love goes a long way with these developers. 
